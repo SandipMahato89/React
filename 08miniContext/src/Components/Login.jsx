@@ -15,11 +15,13 @@ function Login() {
     <div>
       <h2>Login</h2>
       <input
-        type="text"
+      className="p-1"
+        type="text"       
         value={username}
         onChange={(e) => setUsername(e.target.value)}
-        placeholder="username"
+        placeholder="username"       
       />
+       {" "}
       <input
         type="password"
         value={password}
